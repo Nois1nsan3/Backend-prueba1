@@ -158,3 +158,12 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color:#0d6efd;
+    color: #ffffff;
+}

@@ -152,3 +152,21 @@ a:hover {
     background-color: #444444;
     transform: translateY(-50%);
 }
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color:#0d6efd;
+    color: #ffffff;
+}
+
+.part-1 img:hover {
+    width: 100%;
+    height: 100%;
+}
+    
+.part-1 img:hover {
+    transform: scale(1.2, 1.2) rotate(5deg);
+}
