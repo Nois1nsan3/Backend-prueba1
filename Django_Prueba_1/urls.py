@@ -20,7 +20,7 @@ from TempApp.views import index, celulares, juegos, usuario
 urlpatterns = [
     path('admin/', admin.site.urls),
     path ('', index, name='index'),
-    path ('celulares/', celulares),
-    path ('juegos/', juegos),
+    path ('productos/celulares', celulares),
+    path ('productos/juegos', juegos),
     path ('usuario/', usuario),
 ]
