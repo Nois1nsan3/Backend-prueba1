@@ -6,7 +6,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
-    return render (request, "Hello, world. You're at the polls index.")
+    return render (request, "templates/index.html")
 
 
 def celulares(request):
@@ -17,5 +17,5 @@ def juegos(request):
     return render (request, 'templates/juegos.html')
 
 def usuario(request):
-    return HttpResponse ("Hola, usuario")
+    return HttpResponse ("Bienvenido a la pagina de usuario")
 

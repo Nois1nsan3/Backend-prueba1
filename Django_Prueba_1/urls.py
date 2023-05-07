@@ -17,7 +17,6 @@ from django.contrib import admin
 from django.urls import path
 from TempApp.views import index, celulares, juegos, usuario
 
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path ('', index),
