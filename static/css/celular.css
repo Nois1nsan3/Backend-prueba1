@@ -77,10 +77,6 @@ a:hover {
     background-size: cover;
 }
 
-.section-products #product-4 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
-    background-size: cover;
-}
 
 .section-products .single-product .part-1 .discount,
 .section-products .single-product .part-1 .new {
