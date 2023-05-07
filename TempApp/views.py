@@ -19,19 +19,20 @@ def juegos(request):
     return render (request, 'templates/juegos.html')
 
 def usuario(request):
-    doc_externo=open('C:/Users/boriz/OneDrive/Escritorio/Django proyectos/Django_Prueba_1/plantillas/templates/usuario.html')
+    doc_externo = open('plantillas/templates/usuario.html')
+
 
     plt = Template(doc_externo.read())
 
     doc_externo.close()
 
     ctx=Context({
-        "title" : "DJANGO SHOP",
-        "user" : "Datos de Usuario",
-        "nombre" : "Xavier",
-        "apellido": "Papito",
-        "nacionalidad" : "Hindi",
-        "return" : "Volver",
+        'nombre' : 'Nois',
+        'sub' : 'Web Design & Development',
+        'telefono' : '+569 93053395',
+        'email' : 'boriznicolaz@gmail.com',
+        'web' : 'www.Nois1ns4n3.com',
+        'return' : "Volver",
         })
 
     pagina = plt.render(ctx)
