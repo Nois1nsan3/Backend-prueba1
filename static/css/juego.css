@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
-
 body {
     font-family: "Poppins", sans-serif;
     color: #444444;
@@ -72,11 +69,6 @@ a:hover {
 
 .section-products #product-3 .part-1::before {
     background: url("https://i.ibb.co/L8Nrb7p/1.jpg") no-repeat center;
-    background-size: cover;
-}
-
-.section-products #product-4 .part-1::before {
-    background: url("https://i.ibb.co/cLnZjnS/2.jpg") no-repeat center;
     background-size: cover;
 }
 
